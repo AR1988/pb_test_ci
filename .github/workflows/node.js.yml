@@ -20,4 +20,4 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - uses: ./phonebook-ui/github/actions
+    - uses: ./phonebook-ui/.github/actions
