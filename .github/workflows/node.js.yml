@@ -20,6 +20,7 @@ jobs:
 
     steps:
     - run: pwd
-    - run: ls -la
-    - run: ls -la ./
+    - run: ls
+    - run: ls  ./
+    - uses: actions/checkout@v2
     - uses: ./phonebook-ui/.github/actions
