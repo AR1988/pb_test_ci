@@ -19,5 +19,5 @@ jobs:
         node-version: [10.x, 12.x, 14.x]
 
     steps:
-    - uses: ./phonebook-ui/.github/actions
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
+      - uses: ./phonebook-ui6156/.github/actions
