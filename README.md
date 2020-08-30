@@ -40,3 +40,6 @@ It’s automatically generated from your OpenAPI (formerly known as Swagger) Spe
 with the visual documentation making it easy for back end implementation and client side consumption.
 
 To use Swagger Ui run the PhonebookApiApplication and visit the http://localhost:8080/swagger-ui.html page in your browser
+
+
+https://github.com/AR1988/pb_test_ci/workflows/.github/workflows/gradle.yml/badge.svg
