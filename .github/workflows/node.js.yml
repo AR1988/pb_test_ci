@@ -21,4 +21,4 @@ jobs:
     steps:
     - run: pwd
     - run: ls -la ./
-    - uses: phonebook-ui/.github/actions
+    - uses: /phonebook-ui/.github/actions
