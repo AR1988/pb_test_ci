@@ -26,8 +26,3 @@ jobs:
         run: ./gradlew test
       - name: Build with Gradle without tests
         run: ./gradlew build -x test
-      - name: intstall npm
-        run: cd ./phonebook-ui npm install
-      - name: run npm test (ui test)
-        run: ng test
-
