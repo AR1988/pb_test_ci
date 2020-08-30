@@ -42,4 +42,7 @@ with the visual documentation making it easy for back end implementation and cli
 To use Swagger Ui run the PhonebookApiApplication and visit the http://localhost:8080/swagger-ui.html page in your browser
 
 
-[![pipeline status] https://github.com/AR1988/pb_test_ci/workflows/.github/workflows/gradle.yml/badge.svg
+
+
+![master status](https://github.com/AR1988/pb_test_ci/workflows/Java%20CI%20with%20Gradle/badge.svg?branch=master)
+![event parameter](https://github.com/AR1988/pb_test_ci/workflows/Java%20CI%20with%20Gradle/badge.svg?event=pull_request)
