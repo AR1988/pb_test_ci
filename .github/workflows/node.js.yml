@@ -24,7 +24,10 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - run: cd ./phoneBook-master/phonebook-ui/
+      - run: cd ..
+      - run: pwd
+      - run: cd ..
+      - run: pwd..
       - run: pwd
       - run: npm ci
       - run: npm run build --if-present
