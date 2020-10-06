@@ -22,10 +22,7 @@ jobs:
           java-version: 11
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
-      - name: :phonebook-api:test
-        run: gradle :phonebook-api:test
       - name: Run Test
         run: ./gradlew test
       - name: Build with Gradle without tests
         run: ./gradlew build -x test
-
